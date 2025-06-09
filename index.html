@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julien Forestier - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">JF</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="accueil" class="section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Julien Forestier</h1>
+                    <h2>Étudiant en BUT Science des Données</h2>
+                    <p class="tagline">Passionné par l'analyse et la visualisation de données</p>
+                    <a href="images/Cv Julien Forestier.pdf" class="cta-button" download>
+                        <i class="fas fa-download"></i> Télécharger mon CV
+                    </a>
+                </div>
+                <div class="profile-image">
+                    <img src="images/IMG_1653.jpg" alt="Julien Forestier">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="a-propos" class="section">
+        <div class="container">
+            <h2 class="section-title">À propos</h2>
+            <div class="about-content">
+                <p>Étudiant en BUT Science des Données à Niort, je suis une personne calme et réservée, mais très sérieuse dans mon travail. Mon parcours m'a permis de développer une solide expertise dans l'analyse et le traitement des données.</p>
+                <p>En dehors de mes études, je suis passionné par les jeux vidéo et le badminton, deux activités qui me permettent de maintenir un bon équilibre entre travail et loisirs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="section">
+        <div class="container">
+            <h2 class="section-title">Outils et Langages de Programmation Connus</h2>
+            <div class="tool-categories">
+                <div class="tool-category">
+                    <h3>Programmation</h3>
+                    <div class="tool-bubbles">
+                        <span class="tool-bubble">Python</span>
+                        <span class="tool-bubble">JavaScript</span>
+                        <span class="tool-bubble">PHP</span>
+                        <span class="tool-bubble">Scala</span>
+                        <span class="tool-bubble">VBA</span>
+                    </div>
+                </div>
+                <div class="tool-category">
+                    <h3>Data & BI</h3>
+                    <div class="tool-bubbles">
+                        <span class="tool-bubble">SQL</span>
+                        <span class="tool-bubble">Talend</span>
+                        <span class="tool-bubble">SAS (macro)</span>
+                        <span class="tool-bubble">Buisiness Object</span>
+                        <span class="tool-bubble">Architecture SID</span>
+                    </div>
+                </div>
+                <div class="tool-category">
+                    <h3>Visualisation</h3>
+                    <div class="tool-bubbles">
+                        <span class="tool-bubble">Tableau Software</span>
+                        <span class="tool-bubble">Power BI</span>
+                        <span class="tool-bubble">R Shiny</span>
+                        <span class="tool-bubble">QGIS</span>
+                        <span class="tool-bubble">Excel</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tool-categories" style="margin-top: 2rem;">
+                <div class="tool-category">
+                    <h3>Outils & Environnements</h3>
+                    <div class="tool-bubbles">
+                        <span class="tool-bubble">Git</span>
+                        <span class="tool-bubble">Shell Linux</span>
+                        <span class="tool-bubble">Sphinx</span>
+                    </div>
+                </div>
+                <div class="tool-category">
+                    <h3>Statistiques & Machine Learning</h3>
+                    <div class="tool-bubbles">
+                        <span class="tool-bubble">Classification (CAH, k-means)</span>
+                        <span class="tool-bubble">Machine Learning (ML)</span>
+                        <span class="tool-bubble">Client-serveur JS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="section-title">Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-gallery">
+                        <img src="images/Projet Power bi/PowerBI_PowerBI_Power Bi.png" alt="Power BI 1" class="project-image" data-project="powerbi">
+                    </div>
+                    <h3>Projet Power BI</h3>
+                    <p>Création d'un tableau de bord pour analyser les risques d'accidents domestiques</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-gallery">
+                        <img src="images/Projet dataviz web/1.png" alt="Dataviz 1" class="project-image" data-project="dataviz">
+                    </div>
+                    <h3>Projet Dataviz Web</h3>
+                    <p>Développement d'une interface graphique d'une base de données sur les accidents</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-gallery">
+                        <a href="https://julienf.shinyapps.io/TableauDeBord/" target="_blank">
+                            <img src="images/Projet Rshiny/Projet Rshiny.png" alt="Projet Rshiny" class="project-image" data-project="rshiny">
+                        </a>
+                    </div>
+                    <h3>Projet Rshiny</h3>
+                    <p>Datavisualisation de la pauvreté en France</p>
+                </div>
+            </div>
+
+            <!-- Modal pour afficher les images du projet -->
+            <div id="projectModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="modalImages"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bilan" class="section">
+        <div class="container">
+            <h2 class="section-title">Bilan</h2>
+            <div class="bilan-content">
+                <h3>Compte rendu de deuxième année – BUT Science des Données</h3>
+                <h4>Introduction</h4>
+                <p>Cette deuxième année de BUT Science des Données m'a permis de consolider les acquis de la première année tout en abordant des notions plus complexes, aussi bien sur le plan théorique qu'appliqué. Les enseignements ont été plus spécialisés et ont introduit des approches concrètes du traitement de données, de la modélisation et de la programmation.</p>
+                <h4>Évolution des compétences</h4>
+                <h5>Mathématiques appliquées</h5>
+                <p>Les cours de mathématiques ont porté sur l'étude de modèles statistiques, notamment :</p>
+                <ul>
+                    <li>Modèles linéaires simples et multiples</li>
+                    <li>Régression logistique</li>
+                    <li>Initiation au machine learning supervisé</li>
+                </ul>
+                <p>Ces notions m'ont permis de mieux comprendre les fondements mathématiques des analyses de données, ainsi que leur application concrète.</p>
+                <h5>Programmation et environnement technique</h5>
+                <p>L'année a également été marquée par l'apprentissage du langage Scala, utilisé dans un environnement Linux via des machines virtuelles. Cette approche m'a permis de développer davantage d'autonomie et de m'initier à des environnements similaires à ceux du monde professionnel.</p>
+                <h4>Projets réalisés</h4>
+                <ul>
+                    <li><strong>Datavisualisation avec RShiny</strong> : Conception d'une application interactive permettant de visualiser des données de façon dynamique. Le projet m'a permis de travailler sur l'interface utilisateur et sur le traitement en temps réel des données.</li>
+                    <li><strong>Régression linéaire multiple avec RStudio</strong> : Mise en œuvre d'un modèle de régression sur un jeu de données réel, avec nettoyage, sélection de variables et interprétation des résultats.</li>
+                    <li><strong>Programmation web et datavisualisation</strong> : Création d'une visualisation de données intégrée à une page web. Ce projet a combiné des compétences en développement web et en restitution de données de manière claire et accessible.</li>
+                </ul>
+                <h4>Bilan et perspectives</h4>
+                <p>Cette deuxième année a renforcé mes compétences techniques et analytiques. J'ai abordé des problématiques plus complexes et travaillé avec des outils variés. J'ai également commencé à me familiariser avec des environnements de développement professionnels.</p>
+                <p>Pour la suite, je souhaite approfondir mes connaissances en analyse prédictive, en machine learning et en visualisation interactive. Je reste ouvert à différentes opportunités, notamment dans le cadre d'un stage, d'une alternance ou d'une poursuite vers un master.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-info">
+                <p><strong>Email :</strong> <a href="mailto:julien.forestier16@gmail.com">julien.forestier16@gmail.com</a></p>
+                <p><strong>Téléphone :</strong> <a href="tel:0676363688">0676363688</a></p>
+                <p><strong>Email étudiant :</strong> <a href="mailto:julien.forestier@etu.univ-poitiers.fr">julien.forestier@etu.univ-poitiers.fr</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Julien Forestier. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('projectModal');
+            const modalImages = document.getElementById('modalImages');
+            const closeBtn = document.querySelector('.close');
+            const projectImages = document.querySelectorAll('.project-image');
+
+            projectImages.forEach(img => {
+                img.addEventListener('click', function() {
+                    const project = this.getAttribute('data-project');
+                    modalImages.innerHTML = '';
+                    if (project === 'powerbi') {
+                        modalImages.innerHTML = `
+                            <img src="images/Projet Power bi/PowerBI_PowerBI_Power Bi.png" alt="Power BI 1">
+                            <img src="images/Projet Power bi/PowerBI_Power Bi2.png" alt="Power BI 2">
+                            <img src="images/Projet Power bi/PowerBI_Power BI3.png" alt="Power BI 3">
+                        `;
+                    } else if (project === 'dataviz') {
+                        modalImages.innerHTML = `
+                            <img src="images/Projet dataviz web/1.png" alt="Dataviz 1">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 191324.png" alt="Dataviz 2">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 191258.png" alt="Dataviz 3">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 191218.png" alt="Dataviz 4">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 191153.png" alt="Dataviz 5">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 191123.png" alt="Dataviz 6">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 191105.png" alt="Dataviz 7">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 191040.png" alt="Dataviz 8">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 191021.png" alt="Dataviz 9">
+                            <img src="images/Projet dataviz web/Dataviz_Screenshot 2025-06-03 190944.png" alt="Dataviz 10">
+                        `;
+                    } else if (project === 'rshiny') {
+                        window.open('https://julienf.shinyapps.io/TableauDeBord/', '_blank');
+                        return;
+                    }
+                    modal.style.display = 'block';
+                });
+            });
+
+            closeBtn.addEventListener('click', function() {
+                modal.style.display = 'none';
+            });
+
+            window.addEventListener('click', function(event) {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
